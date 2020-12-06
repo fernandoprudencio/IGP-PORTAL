@@ -26,11 +26,11 @@ library(RCurl)
 
 #' UPLOAD TO LAMAR SERVER
 path <- "/data/users/lamar/DATA/FIG_WEB_LAMAR/PROJECTS/ANA/NDVI"
-host <- "181.177.244.92"
+host <- "190.187.237.253"
 nam1 <- "ndvi"
 nam2 <- "anom_ndvi"
 year <- "2020"
-month <- "08"
+month <- "10"
 
 ftpUpload(
   sprintf("exports/%1s.png", nam1),
