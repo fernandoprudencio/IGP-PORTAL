@@ -29,8 +29,8 @@ path <- "/data/users/lamar/DATA/FIG_WEB_LAMAR/PROJECTS/ANA/NDVI"
 host <- "190.187.237.253"
 nam1 <- "ndvi"
 nam2 <- "anom_ndvi"
-year <- "2020"
-month <- "12"
+year <- "2021"
+month <- "01"
 
 ftpUpload(
   sprintf("exports/%1s.png", nam1),
@@ -47,7 +47,7 @@ ftpUpload(
 ftpUpload(
   sprintf("exports/%1s.png", nam1),
   sprintf(
-    "ftp://%1$s/%2$s/2020/%5$s/%3$s%4$s_%5$s.png",
+    "ftp://%1$s/%2$s/2021/%5$s/%3$s%4$s_%5$s.png",
     host, path, year, month, nam1
   ),
   userpwd = "amazonia:l@mar1044"
@@ -56,7 +56,7 @@ ftpUpload(
 ftpUpload(
   sprintf("exports/%1s.png", nam2),
   sprintf(
-    "ftp://%1$s/%2$s/2020/%5$s/%3$s%4$s_%5$s.png",
+    "ftp://%1$s/%2$s/2021/%5$s/%3$s%4$s_%5$s.png",
     host, path, year, month, nam2
   ),
   userpwd = "amazonia:l@mar1044"
