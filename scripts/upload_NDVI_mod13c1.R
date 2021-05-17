@@ -30,7 +30,7 @@ host <- "190.187.237.253"
 nam1 <- "ndvi"
 nam2 <- "anom_ndvi"
 year <- "2021"
-month <- "02"
+month <- "04"
 
 ftpUpload(
   sprintf("exports/%1s.png", nam1),
